@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.943624">
+<testcase classname="Coding Challenge" name="Open Weather API testing with Parameters" time="3.943624">
+<system-out><![CDATA[Given User connects to Openweather website..................................passed
+Then Using Resource:/data/2.5/weather and Zip:03867,us and Key:3813494aebca6ec7206ddd5fedd5961b Assert that status code is ok.passed
+Then Using Resource:/data/2.5/weather and Zip:03867,us and Key:3813494aebca6ec7206ddd5fedd5961b Assert that response is in Json Format.passed
+Then Using Resource:/data/2.5/weather and Zip:03867,us and Key:3813494aebca6ec7206ddd5fedd5961b Validate the city name from response.passed
+Then Using Resource:/data/2.5/weather and Zip:03867,us and Key:3813494aebca6ec7206ddd5fedd5961b Get the temperature from your response.passed
+Then Using Resource:/data/2.5/weather and Zip:03867,us and Key:3813494aebca6ec7206ddd5fedd5961b Validate the response time.passed
+Then Using Resource:/data/2.5/weather and Zip:03867,us and Key:3813494aebca6ec7206ddd5fedd5961b Assert on the Latitude and Longitude from the response.passed
+]]></system-out>
+</testcase>
+</testsuite>
